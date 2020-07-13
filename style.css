@@ -1,0 +1,25 @@
+body {
+  background-color: #ffe;;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  background-color: #703710;
+  color: #ffe;
+  padding: 0.5rem 0 1.0rem 0;
+}
+
+#question {
+  font-family: Bookman;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  background-color: #e68e37;
+  height: 72px;
+  padding: 4px 16px;
+}
+
+.answer {
+  font-family: Bookman;
+  height: 48px;
+}
