@@ -7,19 +7,47 @@ h1 {
   font-size: 3rem;
   background-color: #703710;
   color: #ffe;
-  padding: 0.5rem 0 1.0rem 0;
+  padding: 0.5rem 0 0.75rem 0;
 }
 
-#question {
+#question,
+#instructions {
   font-family: Bookman;
   font-size: 1.5rem;
+  text-align: center;
   line-height: 2rem;
   background-color: #e68e37;
-  height: 72px;
   padding: 4px 16px;
+}
+
+#controls,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  height: 48px;
+  margin: auto;
+}
+
+button {
+  background-color: #703710;
+  border-radius: 8px;
+  color: #ffe;
+}
+button:disabled {
+  opacity: 0.5;
 }
 
 .answer {
   font-family: Bookman;
+  text-align: center;
   height: 48px;
+  max-width: 500px;
+  margin: auto;
+}
+
+li {
+  border: 1px solid #703710;
+  border-radius: 7px;
+  margin: 0 10px 20px 0;
+  padding-left: 8px;
 }

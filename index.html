@@ -9,13 +9,27 @@
 </head>
 <body>
   <h1 class="text-center">JavaScript Quiz</h1>
+  <p id="instructions">Answer 5 random, multiple choice questions about JavaScript as fast as you can. 
+    Your score is based on accuracy and speed. Click 'Next' to advance between questions.</p>
+  <div class="row justify-content-around" id="controls">
+    <div class="col-auto">
+      <span id="score">Score:</span>
+    </div>
+    <div class="col-auto">
+      <button id="start-btn">Start</button>
+    </div>
+    <div class="col-auto">
+      <button id="next-btn" disabled>Next</button>
+    </div>
+  </div>
   <p id="question"></p>
-  <ol class="answer" type="A">
-    <li class="answer" id="answer1"></li>
-    <li class="answer" id="answer2"></li>
-    <li class="answer" id="answer3"></li>
-    <li class="answer" id="answer4"></li>
+  <ol class="answer" id="answers" type="A" style="visibility: hidden;">
+    <li class="answer-btn" id="answer1"></li>
+    <li class="answer-btn" id="answer2"></li>
+    <li class="answer-btn" id="answer3"></li>
+    <li class="answer-btn" id="answer4"></li>
   </ol>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
