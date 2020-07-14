@@ -1,7 +1,7 @@
 # code-quiz
 # 04 Web APIs: Code Quiz
 
-https://github.com/elwiller/code-quiz
+https://elwiller.github.io/code-quiz/
 
 This is a simple JavaScript Quiz in which the user will answer five random questions.
 
